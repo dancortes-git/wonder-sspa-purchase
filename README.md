@@ -1,6 +1,6 @@
 # Wonder - Purchase - Micro Frontend
 
-This project is a Micro Frontend build with Single SPA (create-single-spa). It is used to build the Sign In and Sign Up pages of the application.
+This project is a Micro Frontend build with Single SPA (create-single-spa) and React. It is used to build the Sign In and Sign Up pages of the application.
 
 This is a simple todo task list project, each task created is a card with title, message and an random image from [Lorem Picsum](https://picsum.photos).
 
@@ -20,15 +20,17 @@ The list of all Micro Frontends of the Wonder SSPA Project is:
 + [Wonder SSPA Container](https://github.com/dancortes-git/wonder-sspa-container):
   + Container application using [Single SPA](https://single-spa.js.org/).
 + [Wonder SSPA Customer](https://github.com/dancortes-git/wonder-sspa-customer):
-  + Header of the application using [Single SPA](https://single-spa.js.org/).
+  + Header of the application using [Single SPA](https://single-spa.js.org/) (React App).
 + [Wonder SSPA Legal](https://github.com/dancortes-git/wonder-sspa-legal):
-  + Footer of the application using [Single SPA](https://single-spa.js.org/).
+  + Footer of the application using [Single SPA](https://single-spa.js.org/) (React App).
 + [Wonder SSPA Purchase](https://github.com/dancortes-git/wonder-sspa-purchase):
-  + Sign In and Sign Up of the application using [Single SPA](https://single-spa.js.org/).
+  + Sign In and Sign Up of the application using [Single SPA](https://single-spa.js.org/) (React App).
 + [Wonder SSPA Marketing](https://github.com/dancortes-git/wonder-sspa-marketing):
-  + Landing and Pricing Page of the application using [Single SPA](https://single-spa.js.org/).
+  + Landing and Pricing Page of the application using [Single SPA](https://single-spa.js.org/) (React App).
 + [Wonder SSPA Product](https://github.com/dancortes-git/wonder-sspa-product):
-  + The main feature (card todo list) of the application using [Single SPA](https://single-spa.js.org/).
+  + The main feature (card todo list) of the application using [Single SPA](https://single-spa.js.org/) (React App).
++ [Wonder SSPA Loading](https://github.com/dancortes-git/wonder-sspa-loading):
+  + A simple loader using LinearProgress of Material UI [Single SPA](https://single-spa.js.org/) (React App).
 
 
 This project was deployed in a S3 bucket exposed by cloudfront using github actions (CI/CD).
@@ -39,7 +41,7 @@ You can see a live demo at: https://wonder-sspa.dancortes.com
 
 You can see in the picture the local ports and the structure of the project:
 
-![Wonder Structure](https://raw.githubusercontent.com/dancortes-git/wonder-mfp-container/master/images/wonder-structure.jpg)
+![Wonder Structure](https://raw.githubusercontent.com/dancortes-git/wonder-sspa-container/master/images/wonder-structure.jpg)
 
 ## Project Wireframes
 
